@@ -1,0 +1,108 @@
+common start*/
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*common end*/
+
+/*Header start*/
+
+header{
+	padding: 10px 0;
+	border-bottom: 2px solid #EEF0F3;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.logo{
+	width: 10%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 40%;
+	/*border: 1px solid red;*/
+	float: right;
+	margin-top: 7px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	margin: 0px 15px;
+	display: inline-block;
+	font-family: arial, sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #0F2656;
+}
+.menu ul li:last-child a{
+	margin-right: 0; 
+}
+
+/*Header end*/
+
+/*Banner start*/
+
+.banner{
+	margin: 40px 0px;
+}
+.container2{
+	width: 55%;
+	margin: 0 auto;
+}
+.bcontainer{
+	font-family: arial, sans-serif;
+	text-align: center;
+}
+.bcontainer h1{
+	font-size: 40px;
+	color: #0F2656;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin: 0px 0px;
+}
+.bcontainer h2{
+	font-size: 35px;
+	color: #008AFF;
+	letter-spacing: 1px;
+	margin: 10px 0px;
+}
+.bcontainer p{
+	font-size: 16px;
+	color: #0F2656;
+	letter-spacing: 0.25px;
+	line-height: 30px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+.banner-img{
+	width: 80%;
+	margin: 0 auto;
+}
+.banner-img img{
+	width: 100%;
+}
+
+/*Banner end*/
+
+/*Info start*/
+
+ /*N blue - #0F2656*/
+ /*L blue - #008AFF*/
+ /*line arrow - #EEF0F3*/
+
+ /*Info end
